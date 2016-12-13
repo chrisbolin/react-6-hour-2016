@@ -30,7 +30,8 @@ import preloader from "spectacle/lib/utils/preloader";
 import createTheme from "spectacle/lib/themes/default";
 
 // Import custom component
-import Interactive from "../assets/interactive";
+import Counter from "../assets/counter";
+import ProductTable from "../assets/productTable";
 
 // Require CSS
 require("normalize.css");
@@ -79,6 +80,12 @@ export default class Presentation extends React.Component {
               Chris Bolin @bolinchris<br/>
               <br/>
               bit.ly/react-2016
+            </Heading>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              <Link href="#/67">Day Two: Start Here</Link>
             </Heading>
           </Slide>
 
@@ -735,6 +742,19 @@ export default class Presentation extends React.Component {
 
           <Slide>
             <Heading size={1}>
+              Day 1 Review
+            </Heading>
+            <Text>
+              ES6<br/>
+              JSX<br/>
+              Components<br/>
+              Functional & Class<br/>
+              Props<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={1}>
               Events
             </Heading>
           </Slide>
@@ -888,6 +908,20 @@ export default class Presentation extends React.Component {
 
           <Slide>
             <Heading size={2}>
+              → <a href="http://codepen.io/chrisbolin/pen/jWeGyb" target="_blank">
+                React Boilerplate
+              </a>
+            </Heading>
+            <Text>
+              Make a Class component.<br/>
+              Initialize its state.<br/>
+              Change the state on click.<br/>
+              Move the event handling to a separate method.<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
               Data down,<br/>Events up
             </Heading>
             <Text textAlign="left">
@@ -903,12 +937,181 @@ export default class Presentation extends React.Component {
                 React Boilerplate
               </a>
             </Heading>
-            <Text>
-              Make a Class component.<br/>
-              Initialize its state.<br/>
-              Change the state on click.<br/>
-              Move the event handling to a separate method.<br/>
+            <Text textAlign="left">
+              Make a Class component with state.<br/>
+              Make a Functional component with an event.<br/>
+              Use the Functional component in the Class.<br/>
+              Send events from the Function to change the Class's state.
             </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              → <a href="http://codepen.io/chrisbolin/pen/jWeGyb" target="_blank">
+                Exercise: Counter
+              </a>
+            </Heading>
+            <Text textAlign="left">
+              Build a counter.<br/>
+              • A heading that displays current count.<br/>
+              • An increment button.<br/>
+              • A decrement button.
+            </Text>
+            <Counter/>
+          </Slide>
+
+          <Slide align="flex-start flex-start">
+            <Heading size={2}>
+              → <a href="http://codepen.io/chrisbolin/pen/rWZgGE" target="_blank">
+                Exercise: Filtering
+              </a>
+            </Heading>
+            <ProductTable/>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+                Components
+            </Heading>
+            <Text>
+              How would you divide up the problem?
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+                State
+            </Heading>
+            <Text>
+              What state do we need?<br/>
+              Which components need state?
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+                Static List
+            </Heading>
+            <Text>
+              Products, thier prices, and thier availability.
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+                Availability toggle
+            </Heading>
+            <Text>
+              Toggle to show or hide out-of-stock products.
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+                Filter box
+            </Heading>
+            <Text>
+              Filter as you type.
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={1}>
+              React Miscellany
+            </Heading>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              Styling
+            </Heading>
+            <Text>
+              CSS Classes<br/>
+              Inline styles<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              Children
+            </Heading>
+            <Text>
+              Any component can be a container.
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              Tooling
+            </Heading>
+            <Text>
+              react-create-app<br/>
+              Babel<br/>
+              Webpack<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              State
+            </Heading>
+            <Text>
+              Redux<br/>
+              MobX<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              Lifecycle Methods
+            </Heading>
+            <Text>
+              Component Should Update<br/>
+              Component Did Mount<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              PropTypes
+            </Heading>
+            <Text>
+              Check the type of component props<br/>
+              Highly recommended!<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              Debugging
+            </Heading>
+            <Text>
+              Chrome inspector
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
+              React isn't just for HTML
+            </Heading>
+            <Text>
+              SVG<br/>
+              React Canvas<br/>
+              iOS and Android (React Native)<br/>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={1}>
+              Introduction<br/>
+              to React
+            </Heading>
+            <Heading size={3} lineHeight={1.2}>
+              Chris Bolin
+              <br/>
+              <br/>
+              @bolinchris | bolin.chris@gmail.com
+            </Heading>
           </Slide>
 
         </Deck>
