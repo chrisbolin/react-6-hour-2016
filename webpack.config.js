@@ -24,7 +24,7 @@ module.exports = {
       test: /\.md$/,
       loader: "html-loader!markdown-loader?gfm=false"
     }, {
-      test: /\.(js|jsx)$/,
+      test: /\.(js)$/,
       exclude: /node_modules/,
       loader: "babel-loader",
       query: {
