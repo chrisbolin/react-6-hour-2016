@@ -202,8 +202,10 @@
     * use this.setState() to change state and to trigger a re-render
   * [Exercise] constructor() with this.state. then use that state in render
   * [Exercise] ...then, use this.setState() and onClick={}
-* [Exercise: Counter](examples/counter.md) (60 min) (state and events)
-* [Exercise: Dynamic Filtering](examples/dynamic-filtering.md) (105 min)
+* [Exercise: Counter](examples/counter.md) (45 min) (state and events)
+  * Key: http://codepen.io/chrisbolin/pen/eBPeYY
+* [Exercise: Dynamic Filtering](examples/dynamic-filtering.md) (120 min)
+  * Key: http://codepen.io/chrisbolin/pen/oYaoxw
 * Styling in React - classes and inline (what are the limitations of classes - why would you want to do this inline)
 * props.children (15 mins)
 * Tooling (15 min)

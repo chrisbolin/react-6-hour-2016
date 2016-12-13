@@ -886,7 +886,8 @@ export default class Presentation extends React.Component {
             <Text textAlign="left">
               Stored in <Code>this.state</Code>.<br/>
               Changed with <Code>this.setState()</Code>.<br/>
-              Initialized in the <Code>constructor()</Code>.<br/>
+              setState merges state data.<br/>
+              Initialized in the constructor method.
             </Text>
           </Slide>
 
@@ -908,6 +909,18 @@ export default class Presentation extends React.Component {
 
           <Slide>
             <Heading size={2}>
+              Callback Context
+            </Heading>
+            <Text textAlign="left">
+              By default, callbacks are run with no context.<br/>
+              If you need to access the Component's context, like <Code>this.something</Code>,
+              in a callback make sure you bind it...<br/>
+              <Code>myCallback.bind(this)</Code>
+            </Text>
+          </Slide>
+
+          <Slide>
+            <Heading size={2}>
               → <a href="http://codepen.io/chrisbolin/pen/jWeGyb" target="_blank">
                 React Boilerplate
               </a>
@@ -917,6 +930,7 @@ export default class Presentation extends React.Component {
               Initialize its state.<br/>
               Change the state on click.<br/>
               Move the event handling to a separate method.<br/>
+              Hint: you mind need bind
             </Text>
           </Slide>
 
