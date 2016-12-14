@@ -1059,7 +1059,7 @@ export default class Presentation extends React.Component {
               Tooling
             </Heading>
             <Text>
-              react-create-app<br/>
+              create-react-app<br/>
               Babel<br/>
               Webpack<br/>
             </Text>
