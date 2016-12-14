@@ -2,6 +2,7 @@
 
 var path = require("path");
 var webpack = require("webpack");
+var HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: [
@@ -14,17 +15,24 @@ module.exports = {
     publicPath: "/dist/"
   },
   plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
+    // new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.DefinePlugin({
       "process.env": {
         "NODE_ENV": JSON.stringify("production")
       }
     }),
-    new webpack.optimize.UglifyJsPlugin({
-      compressor: {
-        warnings: false
-      }
-    })
+    // new webpack.optimize.UglifyJsPlugin({
+    //   compressor: {
+    //     warnings: false
+    //   }
+    // }),
+    new HtmlWebpackPlugin({
+      filename: '../index.html',
+      template: 'index.template.ejs',
+      hash: true,
+      inject: false,
+      uid: Date.now().toString(),
+    }),
   ],
   module: {
     loaders: [{

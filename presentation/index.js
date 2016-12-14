@@ -85,12 +85,6 @@ export default class Presentation extends React.Component {
 
           <Slide>
             <Heading size={2}>
-              <Link href="#/67">Day Two: Start Here</Link>
-            </Heading>
-          </Slide>
-
-          <Slide>
-            <Heading size={2}>
               Hi, I'm Chris
             </Heading>
             <Text>
