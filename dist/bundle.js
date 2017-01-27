@@ -29647,7 +29647,7 @@
 	            _react2.default.createElement(
 	              _spectacle.Text,
 	              null,
-	              "Is the menu visable?",
+	              "Is the menu visible?",
 	              _react2.default.createElement("br", null),
 	              "What's the user's name?",
 	              _react2.default.createElement("br", null),
@@ -29688,7 +29688,7 @@
 	              _react2.default.createElement("br", null),
 	              "Remember, React is a View library:",
 	              _react2.default.createElement("br", null),
-	              "State is not it's specialty.",
+	              "State is not its specialty.",
 	              _react2.default.createElement("br", null),
 	              _react2.default.createElement("br", null),
 	              "Use a state library, like Redux and MobX, for real applications."
@@ -29726,7 +29726,7 @@
 	            _react2.default.createElement(
 	              _spectacle.Text,
 	              { textAlign: "left" },
-	              "They just take in thier props and use them to render.",
+	              "They just take in their props and use them to render.",
 	              _react2.default.createElement("br", null),
 	              "No state \u2192 easier to understand.",
 	              _react2.default.createElement("br", null)
@@ -29966,7 +29966,7 @@
 	            _react2.default.createElement(
 	              _spectacle.Text,
 	              null,
-	              "Products, thier prices, and thier availability."
+	              "Products, their prices, and their availability."
 	            )
 	          ),
 	          _react2.default.createElement(
