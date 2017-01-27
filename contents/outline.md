@@ -185,7 +185,7 @@
     * 2. State is where you will find the most bugs in your code; they will also be the hardest to fix bugs
   * React's handling for state is fine for trivial applications
     * Remember, react is a View library
-    * State is not it's specialty
+    * State is not its specialty
   * Use something else for bigger apps
     * Redux and MobX are two popular options
   * Use state sparingly:

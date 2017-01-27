@@ -818,7 +818,7 @@ export default class Presentation extends React.Component {
               Examples of State
             </Heading>
             <Text>
-              Is the menu visable?<br/>
+              Is the menu visible?<br/>
               What's the user's name?<br/>
               What page are we on?<br/>
             </Text>
@@ -843,7 +843,7 @@ export default class Presentation extends React.Component {
               <br/>
               <br/>
               Remember, React is a View library:<br/>
-              State is not it's specialty.
+              State is not its specialty.
               <br/>
               <br/>
               Use a state library, like Redux and MobX, for real applications.
@@ -867,7 +867,7 @@ export default class Presentation extends React.Component {
               can't have state
             </Heading>
             <Text textAlign="left">
-              They just take in thier props and use them to render.<br/>
+              They just take in their props and use them to render.<br/>
               No state → easier to understand.<br/>
             </Text>
           </Slide>
@@ -1001,7 +1001,7 @@ export default class Presentation extends React.Component {
                 Static List
             </Heading>
             <Text>
-              Products, thier prices, and thier availability.
+              Products, their prices, and their availability.
             </Text>
           </Slide>
 
